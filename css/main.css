@@ -1,0 +1,372 @@
+*,html{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Gaegu', cursive;
+}
+h1{
+    /* 23px/16px */
+    font-size: 1.4375em;
+}
+h3{
+    color: red;
+    /* 21px/16px */
+    font-size: 1.3125em;    
+}
+
+header{
+    font-weight: bold;
+    color: #fff;
+    background-image: url('/img/header.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #ccc; /* màu backup khi ko load dc hình*/
+    background-size: cover;
+    padding: 10px 40px 100px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header h1{
+    margin-top: 100px;
+}
+
+header h3{
+    font-style: italic;
+}
+
+/*format for top navigation*/
+#main_nav li{
+    list-style-type: none;
+    display: inline;
+    margin-left: 15px;
+}
+#main_nav a{
+    font-weight: normal;
+}
+
+/*class link_button*/
+.link_button{
+    border: 1px solid aquamarine; /*#6ac4bc*/
+    background-color: aquamarine; /*#6ac4bc*/
+    color: #000;
+    padding: 5px;
+    
+}
+
+.link_button:hover {
+    text-decoration: none;
+    border-color: #ccc;
+}
+
+#intro_me{
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+#intro_me > img {
+    height: 200px;
+    -webkit-border-radius: 100%;
+}
+
+#intro_me > div, #intro_me > img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#intro_me a{
+    display: inline-block;
+    margin-top: 20px;
+}
+
+/*Format for my_service section*/
+#my_service{
+    margin-bottom: 20px;
+}
+
+#my_service > h2{
+    text-align: center;
+    background-image: url('/img/1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #ccc;
+    height: 130px;
+    font-size: 1.875em;
+    line-height: 130px;
+}
+
+.project {
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    width: 70%;
+/*    background: red;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project ul {
+    line-height: 25px;
+    text-indent: 25px;
+}
+
+.project li {
+    list-style-type: circle;
+    list-style-position: inside;
+
+}
+
+.project img{
+    height: 150px;
+    
+}
+
+.project div, .project img{
+    text-align: left;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#foot{
+    text-align: center;  
+}
+
+#foot a{
+    color: red;
+}
+
+#work1{
+    border: 1px solid blue;
+    margin: 100px auto;
+    border-spacing: 0 0;
+    border-radius: 20px 20px 0 0;
+}
+#work1 thead tr th{
+    border-bottom: 2px solid blue;
+    padding: 7px;
+    background-color: blue; /*Nếu thêm màu nền vô thì border đầu và cuối phải bo theo*/
+    color: #fff;
+}
+            
+#work1 thead tr th:first-child{ /*Bo theo màu nền*/
+    border-radius: 20px 0 0 0; 
+}
+work1 thead tr th:last-child{ /*Bo theo màu nền*/
+    border-radius: 0 20px 0 0;
+}
+#work1 tbody tr td{
+    padding: 7px;
+}
+#work1 tbody tr:nth-child(odd){
+    background-color: aquamarine;
+}
+#work1 tbody tr:hover{
+    background-color: yellow;
+}
+#work1 tfoot td{
+    text-align: center;
+    background-color: antiquewhite;
+}
+            
+#work2{
+/*    border: 1px solid blue;*/
+    margin: 100px auto;
+    border-spacing: 10px 0;
+    border-radius: 20px 20px 0 0;
+}
+#work2 thead tr th{
+    border-bottom: 2px solid blue;
+    padding: 7px;                
+}
+            
+#work2 thead tr th:first-child{
+    border-radius: 20px 0 0 0;
+}
+            
+#work2 thead tr th:last-child{
+    border-radius: 0 20px 0 0;   
+}
+                        
+#work2 tbody tr td:nth-child(even){
+    background-color: aquamarine;
+}
+#work2 tbody tr td{
+    padding: 7px;
+}     
+            
+#work2 tfoot td{
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+#main_wrapper{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+#main_wrapper:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+#left_col{
+    width: 80%;
+    display: inline-block;
+    float: left;
+}
+#right_col{
+    width: 20%;
+    display: inline-block;
+    float: left;
+}
+
+.project_item{
+    display: inline-block;
+    border: 1px solid #ccc;
+    margin: 5px;
+    padding: 5px;
+    box-shadow: 5px 5px 5px #ccc;
+}
+.project_item img {
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.project_item_detail{
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+}
+.project_item_detail ul{
+    list-style-position: inside;
+    text-indent: 10px;
+}
+
+#right_col ul{
+    list-style-position: inside;
+    list-style-type: circle;
+    text-indent: 15px;
+}
+
+/*Format for contact page*/
+#contact_form{
+    width: 50%;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 0 12px #ccc;
+    position: relative;
+}
+fieldset{
+    border: 0;
+}
+legend{
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+label{
+    display: block;
+    margin-bottom: 10px;
+}
+label.light{
+    display: inline-block;
+    margin-right: 10px;
+}
+input[type='text'],
+input[type='email'],
+input[type='url'],
+textarea,
+select {
+    border: 0;
+    font-size: 16px;
+    margin: 0;
+    outline: 0; /*bỏ border viền*/
+    padding: 15px;
+    width: 100%;
+    background: #e8eeef;
+    margin-bottom: 30px;
+}
+input[type='radio'],
+input[type='checkbox'] {
+    margin-bottom: 30px;
+}
+button[type='submit'],
+button[type='reset'] {
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+button[type='submit'] {
+    color: #fff;
+    background: #4bc970;
+    border: 1px solid #3ac162;
+}
+button[type='reset'] {
+    color: #3ac162;
+    background: #ebebeb;
+    border: 1px solid #ebebeb;
+}
+.number{
+    background: #5fcf80;
+    color: #fff;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    font-size: 15px;
+    margin-right: 5px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+}
+#number_contact{
+    background: aquamarine;
+    text-align: center;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 20px;
+    position: absolute;
+    top: -20px;
+    right: -60px;
+}
+#onl_contact{
+    position: fixed;
+    left: 0;
+    top: 50%;
+    margin-top: -30px;
+}
+#onl_contact ul{
+    list-style-type: none;
+}
+#onl_contact ul li{
+    padding: 10px;
+}
+#onl_contact ul li:nth-child(1) {
+    background-color: darkslateblue;
+}
+#onl_contact ul li:nth-child(2){
+    background: #ec5445;
+}
+#onl_contact ul li:nth-child(3){
+    background: aqua;
+}
+
+
