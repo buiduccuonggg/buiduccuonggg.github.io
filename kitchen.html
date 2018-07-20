@@ -7,9 +7,11 @@
         <link href="https://fonts.googleapis.com/css?family=Muli:600" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:700" rel="stylesheet">
         <link href="index.css" rel="stylesheet">
+        <link href="kitchen.css" rel="stylesheet">
+        
     </head>
     <body>
-        <nav id="header">
+       <nav id="header">
             <img src="img/bg-journal-wrapper.jpg">
             <img src="img/bg-qualitycycle-wrapper.jpg">
             <img src="img/bg-recipes-wrapper.jpg">
@@ -137,6 +139,104 @@
             </ul>
         </div>
         
+        <section id="item-container-content">
+            <div id="item-container-1" class="item-container">
+                <div class="item-box">
+                    <a href="#">
+                        <img src="img/kitchen/05055555-1024x768-360x240.jpg">
+                        <h6>8 June 2018</h6>
+                        <h4>CROSTATA DI PRUGNE SECCHE<br> SENZA BURRO</h4>
+                    </a>
+                </div>
+                <div class="item-box">
+                    <a href="#">
+                        <img src="img/kitchen/12810145_964887450274469_1302140924_o-1-768x511-360x240.jpg">
+                        <h6>9 March 2018</h6>
+                        <h4>FILETTO ALLE PRUGNE CON<br> RIDUZIONE DI VINO ROSSO</h4>
+                    </a>
+                </div>
+                <div class="item-box">
+                    <a href="#">
+                        <img src="img/kitchen/2Trilogy-di-S.Valentino-antipasto-a-sorpresa-360x240.jpg">
+                        <h6>21 February 2018</h6>
+                        <h4>TORRETTE DI POLENTA</h4>
+                    </a>
+                </div>    
+            </div>
+            
+            <div id="item-container-2" class="item-container">
+                <div class="item-box">
+                    <a href="#">
+                        <img src="img/kitchen/DSC04501-360x240.jpg">
+                        <h6>27 March 2017</h6>
+                        <h4>CHEESECAKE CON CONFETTURA<br> EXTRA DI AMARENE BRUSCHE</h4>
+                    </a>
+                </div>
+                <div class="item-box">
+                    <a href="#">
+                        <img src="img/kitchen/DSC_0762piccola-360x240.jpg">
+                        <h6>6 October 2017</h6>  
+                        <h4>LINGUINE CON PRUGNE E<br>POMODORI SECCHI</h4>
+                    </a>
+                </div>
+                <div class="item-box">
+                    <a href="#">
+                        <img src="img/kitchen/DSC_0831piccola-360x240.jpg">
+                        <h6>4 November 2017</h6>
+                        <h4>CORONCINE CON UVA E PRUGNE<br> SECCHE</h4>
+                    </a>
+                </div>
+            </div>
+            
+            <div id="item-container-3" class="item-container">
+                <div class="item-box">
+                    <a href="#">
+                        <img src="img/kitchen/DSCN8293-1-360x240.jpg">
+                        <h6>31 December 2016</h6>
+                        <h4>CIAMBELLA ALLA CONFETTURA</h4>
+                    </a>
+                </div>
+                <div class="item-box">
+                    <a href="#">
+                        <img src="img/kitchen/Insalata-di-arance1-360x240.jpg">
+                        <h6>17 November 2016</h6>
+                        <h4>INSALATA DI ARANCE E PRUGNE<br> SECCHE, FINOCCHI E MELAGRANA.</h4>
+                    </a>
+                </div>
+                <div class="item-box">
+                    <a href="#">
+                        <img src="img/kitchen/muffin-360x240.jpg">
+                        <h6>4 April 2016</h6>
+                        <h4>MUFFIN PRUGNE SECCHE E NOCI</h4>
+                    </a>
+                </div>    
+            </div>
+            
+            <div id="item-container-4" class="item-container">
+                <div class="item-box">
+                    <a href="#">
+                        <img src="img/kitchen/P1160730-360x240.jpg">
+                        <h6>10 March 2015</h6>
+                        <h4>BISCOTTI VEGAN CON PRUGNE</h4>
+                    </a>
+                </div>
+                <div class="item-box">
+                    <a href="#">
+                        <img src="img/kitchen/P1170137-360x240.jpg">
+                        <h6>17 October 2015</h6>
+                        <h4>BENSONE MODENSE INTEGRALE<br> CON PRUGNE SECCHE</h4>
+                    </a>
+                </div>
+                <div class="item-box">
+                    <a href="#">
+                        <img src="img/kitchen/prugne-360x240.jpg">
+                        <h6>16 July 2015</h6>
+                        <h4>TOZZETTI ALLE PRUGNE SECCHE</h4>
+                    </a>
+                </div>    
+            </div>
+        </section>
+        
         <section id="body">
             <div id="box1">
                 <div class="layer-black"></div>
@@ -226,7 +326,7 @@
             window.onscroll = function() {
                 
                 //scroll for box 1-2
-                if ((document.body.scrollTop >= 155) || (document.documentElement.scrollTop >= 155)) { 
+                if ((document.body.scrollTop >= 1800) || (document.documentElement.scrollTop >= 1800)) { 
                     if (flag == 0) {
                         myFunctionf1();
                     }
@@ -236,7 +336,7 @@
                     }
                 }
                 //scroll for box 3-4
-                if ((document.body.scrollTop >= 555) || (document.documentElement.scrollTop >= 555)) { 
+                if ((document.body.scrollTop >= 2200) || (document.documentElement.scrollTop >= 2200)) { 
                     if (flagf2 == 0) {
                         myFunctionf2();
                     }
@@ -246,7 +346,7 @@
                     }
                 }
                 //scroll for big box 5
-                if ((document.body.scrollTop >= 955) || (document.documentElement.scrollTop >= 955)) {
+                if ((document.body.scrollTop >= 2600) || (document.documentElement.scrollTop >= 2600)) {
                     if (flagf3 == 0) {
                         myFunctionf3();
                     } 
@@ -256,7 +356,7 @@
                     }
                 }
                 //scroll for big box 6
-                if ((document.body.scrollTop >= 1555) || (document.documentElement.scrollTop >= 1555)) {
+                if ((document.body.scrollTop >= 3200) || (document.documentElement.scrollTop >= 3200)) {
                     if (flagf6 == 0) {
                         myFunctionf6();
                     } 

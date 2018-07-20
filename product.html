@@ -7,6 +7,7 @@
         <link href="https://fonts.googleapis.com/css?family=Muli:600" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:700" rel="stylesheet">
         <link href="index.css" rel="stylesheet">
+        <link href="product.css" rel="stylesheet">
     </head>
     <body>
         <nav id="header">
@@ -137,6 +138,129 @@
             </ul>
         </div>
         
+        
+        <section id="item-container-content">
+            <div id="item-container-1" class="item-container">
+                <div class="item-box">
+                    <a href="#">
+                        <img src="img/dried-fruit/PA0250DA07-360x360.jpg">
+                        <h6>PRUNES</h6>
+                        <h4>PITTED PRUNES 250G</h4>
+                    </a>
+                </div>
+                <div class="item-box">
+                    <a href="#">
+                        <img src="img/dried-fruit/PA0500DB07-360x360.jpg">
+                        <h6>PRUNES</h6>
+                        <h4>PITTED PRUNES 500G</h4>
+                    </a>
+                </div>
+                <div class="item-box">
+                    <a href="#">
+                        <img src="img/dried-fruit/PA0500GB07-360x360.jpg">
+                        <h6>PRUNES</h6>
+                        <h4>WHOLE PRUNES - LARGE - 500G</h4>
+                    </a>
+                </div>    
+            </div>
+            
+            <div id="item-container-2" class="item-container">
+                <div class="item-box">
+                    <a href="#">
+                        <img src="img/dried-fruit/PA0250GA07-360x360.jpg">
+                        <h6>PRUNES</h6>
+                        <h4>WHOLE PRUNES - LARGE - 250G</h4>
+                    </a>
+                </div>
+                <div class="item-box">
+                    <a href="#">
+                        <img src="img/dried-fruit/PA1000JB071-360x360.jpg">
+                        <h6>PRUNES</h6>  
+                        <h4>WHOLE PRUNES - JUMBO - 1000G</h4>
+                    </a>
+                </div>
+                <div class="item-box">
+                    <a href="#">
+                        <img src="img/dried-fruit/PA0500MB071-360x360.jpg">
+                        <h6>PRUNES</h6>
+                        <h4>WHOLE PRUNES - EXTRA LARGE - 500G</h4>
+                    </a>
+                </div>
+            </div>
+            
+            <div id="item-container-3" class="item-container">
+                <div class="item-box">
+                    <a href="#">
+                        <img src="img/jams/amarene-11-360x360.jpg">
+                        <h6>EXTRA JAM</h6>
+                        <h4>AMARENE BRUSCHE DI MODENA</h4>
+                    </a>
+                </div>
+                <div class="item-box">
+                    <a href="#">
+                        <img src="img/jams/amarene-2-360x360.jpg">
+                        <h6>I.G.P EXTRA JAM</h6>
+                        <h4>AMARENE BRUSCHE DI MODENA I.G.P</h4>
+                    </a>
+                </div>
+                <div class="item-box">
+                    <a href="#">
+                        <img src="img/jams/MA5400ILAT1-360x360.jpg">
+                        <h6>EXTRA JAM</h6>
+                        <h4>AMARENE BRUSCHE DI MODENA I.G.P</h4>
+                    </a>
+                </div>    
+            </div>
+            
+            <div id="item-container-4" class="item-container">
+                <div class="item-box">
+                    <a href="#">
+                        <img src="img/jams/MA5400PLAT-360x360.jpg">
+                        <h6>EXTRA JAM</h6>
+                        <h4>JAM OF SOUR CHERRY</h4>
+                    </a>
+                </div>
+                <div class="item-box">
+                    <a href="#">
+                        <img src="img/jams/prugnata-11-360x360.jpg">
+                        <h6>EXTRA JAM</h6>
+                        <h4>PRUGNATA DI PRUGNE SECCHE</h4>
+                    </a>
+                </div>
+                <div class="item-box">
+                    <a href="#">
+                        <img src="img/jams/prugnata-2-360x360.jpg">
+                        <h6>EXTRA JAM</h6>
+                        <h4>PRUGNATA DI PRUGNE SECCHE</h4>
+                    </a>
+                </div>    
+            </div>
+            
+            <div id="item-container-5" class="item-container">
+                <div class="item-box">
+                    <a href="#">
+                        <img src="img/industry/prugne-cubettate-360x360.jpg">
+                        <h6>PRUNES</h6>
+                        <h4>PRUNE CUBES</h4>
+                    </a>
+                </div>
+                <div class="item-box">
+                    <a href="#">
+                        <img src="img/industry/natural-condition-360x360.jpg">
+                        <h6>PRUNES</h6>
+                        <h4>NATURAL CONDITION</h4>
+                    </a>
+                </div>
+                <div class="item-box">
+                    <a href="#">
+                        <img src="img/industry/purea-360x360.jpg">
+                        <h6>PRUNES</h6>
+                        <h4>PRUNE PUREE</h4>
+                    </a>
+                </div>    
+            </div>
+        </section>
+        
         <section id="body">
             <div id="box1">
                 <div class="layer-black"></div>
@@ -223,20 +347,23 @@
             var flagf3 = 0;
             var flagf4 = 0;
             var flagf6 = 0;
+            var flagf7
             window.onscroll = function() {
                 
                 //scroll for box 1-2
-                if ((document.body.scrollTop >= 155) || (document.documentElement.scrollTop >= 155)) { 
+                if ((document.body.scrollTop >= 2300) || (document.documentElement.scrollTop >= 2300)) { 
                     if (flag == 0) {
                         myFunctionf1();
+                        
                     }
                 } else {
                     if (flag != 0) {
-                        myFunction2f1();  
+                        myFunction2f1(); 
+                        
                     }
                 }
                 //scroll for box 3-4
-                if ((document.body.scrollTop >= 555) || (document.documentElement.scrollTop >= 555)) { 
+                if ((document.body.scrollTop >= 2700) || (document.documentElement.scrollTop >= 2700)) { 
                     if (flagf2 == 0) {
                         myFunctionf2();
                     }
@@ -246,24 +373,24 @@
                     }
                 }
                 //scroll for big box 5
-                if ((document.body.scrollTop >= 955) || (document.documentElement.scrollTop >= 955)) {
+                if ((document.body.scrollTop >= 3100) || (document.documentElement.scrollTop >= 3100)) {
                     if (flagf3 == 0) {
                         myFunctionf3();
                     } 
                 } else {
-                    if(flagf3 != 0) {
-                        myFunction2f3();
-                    }
+                        if(flagf3 != 0) {
+                            myFunction2f3();
+                        }
                 }
                 //scroll for big box 6
-                if ((document.body.scrollTop >= 1555) || (document.documentElement.scrollTop >= 1555)) {
+                if ((document.body.scrollTop >= 3700) || (document.documentElement.scrollTop >= 3700)) {
                     if (flagf6 == 0) {
                         myFunctionf6();
                     } 
                 } else {
-                    if(flagf6 != 0) {
-                        myFunction2f6();
-                    }
+                        if(flagf6 != 0) {
+                            myFunction2f6();
+                        }
                 }
                 //scroll for menu-bar
                 if ((document.body.scrollTop >= 165) || (document.documentElement.scrollTop >= 165)) {
@@ -289,6 +416,7 @@
                 document.getElementById("box2").className = "mid";
                 
             }
+            
             //show for box 1-2
             function myFunctionf1() {
                 flag = 1;
@@ -358,6 +486,7 @@
                 flagf4 = 0;
                 document.getElementById("menu-v2").className = "hide-menu-bar";
             }
+            
         </script>
     </body>
 </html>

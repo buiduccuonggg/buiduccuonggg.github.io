@@ -1,0 +1,99 @@
+#info-profile-content{
+    width: 100%;   
+}
+#info-profile-content:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.bgimg{
+    position: relative;
+    opacity: 1;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+        
+.bgimg-1 {
+    background-image: url("img/profile/header-26.jpg");
+    height: 700px;
+}
+
+.bgimg-2 {
+    background-image: url("img/profile/header-28.jpg");
+    height: 700px;
+}
+        
+.bgimg-3 {
+    background-image: url("img/profile/header-29.jpg");
+    height: 700px;
+}
+
+.bgimg-4 {
+    background-image: url("img/profile/header-30.jpg");
+    height: 700px;
+}
+.bgimg-5 {
+    background-image: url("img/profile/header-17.jpg");
+    height: 700px;
+}
+#dream{
+    height: 300px;
+    color: #fff;
+    background: #735768;
+    padding: 30px;
+    text-align: center;
+    position: relative;
+}
+#dream h3{
+    font-size: 30px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%);
+}
+.bor-white{
+    border: 1px solid white;
+    width: 30px;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%);
+}
+#dream p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.info-profile{
+    height: 200px;
+    padding: 100px;
+    text-align: center;
+    color: #666666;
+    position: relative;
+}
+.info-profile h3{
+    font-size: 30px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%)
+}
+.bor-black{
+    border: 1px solid #ccc;
+    width: 30px;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%);
+}
+.info-profile p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%)
+}

@@ -7,9 +7,10 @@
         <link href="https://fonts.googleapis.com/css?family=Muli:600" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:700" rel="stylesheet">
         <link href="index.css" rel="stylesheet">
+        <link href="profile.css" rel="stylesheet">
     </head>
     <body>
-        <nav id="header">
+       <nav id="header">
             <img src="img/bg-journal-wrapper.jpg">
             <img src="img/bg-qualitycycle-wrapper.jpg">
             <img src="img/bg-recipes-wrapper.jpg">
@@ -137,6 +138,67 @@
             </ul>
         </div>
         
+        
+        <section id="info-profile-content">
+            <div id="dream">
+                <div class="bor-white"></div>
+                <h3>AN ITALIAN DREAM</h3>
+                <p>
+                    Established in the late 1960s,<br>
+                    the company was born when its founder decided to start a synergy with other Italian fruit growers,<br> 
+                    with the aim of producing prunes for desiccation – which had formerly been a prerogative of foreign countries.
+                </p>
+            </div>
+            <div class="bgimg bgimg-1">
+            </div>
+
+            <div class="info-profile">
+                <div class="bor-black"></div>
+                <h3>OLD TRADITIONS</h3>
+                <p>
+                    Packaging was carried out manually or with simple packaging machines.
+                </p>
+            </div>
+            <div class="bgimg bgimg-2">
+            </div>
+
+
+            <div class="info-profile">
+                <div class="bor-black"></div>
+                <h3>FROM INDUSTRY TO SHOP</h3>
+                <p>
+                        The company’s activity was at first exclusively focused on drying prunes for industrial purposes,   mainly prunes in syrup.<br>
+                        Production was later extended to the packaging of prunes for retail, <br>
+                        initially sold in small groceries and then in larger-scale retailers.<br>
+                </p>
+            </div>
+            <div class="bgimg bgimg-3">
+            </div>
+
+            <div class="info-profile">
+                <div class="bor-black"></div>
+                <h3>PACKAGING EVOLUTION</h3>
+                <p>
+                        In the late 1990s the company invested on the restyling of its image and on the Italian provenance of its products, <br>
+                        adopting “Monte Ré – Italian Cultivations” as its new commercial brand.
+                </p>
+            </div>
+            <div class="bgimg bgimg-4">
+            </div>
+
+            <div class="info-profile">
+                <div class="bor-black"></div>
+                <h3>ORIGINS AND TERRITORY</h3>
+                <p>
+                        All the products that are grown and sold by the company come from Italy,<br> 
+                        namely from areas suitable for the growing of the prune tree,<br>
+                        a Mediterranean plant that fears cold during spring and needs hydric availability and the warmth of the sun in the summer.
+                </p>
+            </div>
+            <div class="bgimg bgimg-5">
+            </div>
+        </section>
+        
         <section id="body">
             <div id="box1">
                 <div class="layer-black"></div>
@@ -226,7 +288,7 @@
             window.onscroll = function() {
                 
                 //scroll for box 1-2
-                if ((document.body.scrollTop >= 155) || (document.documentElement.scrollTop >= 155)) { 
+                if ((document.body.scrollTop >= 5600) || (document.documentElement.scrollTop >= 5600)) { 
                     if (flag == 0) {
                         myFunctionf1();
                     }
@@ -236,7 +298,7 @@
                     }
                 }
                 //scroll for box 3-4
-                if ((document.body.scrollTop >= 555) || (document.documentElement.scrollTop >= 555)) { 
+                if ((document.body.scrollTop >= 6000) || (document.documentElement.scrollTop >= 6000)) { 
                     if (flagf2 == 0) {
                         myFunctionf2();
                     }
@@ -246,7 +308,7 @@
                     }
                 }
                 //scroll for big box 5
-                if ((document.body.scrollTop >= 955) || (document.documentElement.scrollTop >= 955)) {
+                if ((document.body.scrollTop >= 6400) || (document.documentElement.scrollTop >= 6400)) {
                     if (flagf3 == 0) {
                         myFunctionf3();
                     } 
@@ -256,7 +318,7 @@
                     }
                 }
                 //scroll for big box 6
-                if ((document.body.scrollTop >= 1555) || (document.documentElement.scrollTop >= 1555)) {
+                if ((document.body.scrollTop >= 7000) || (document.documentElement.scrollTop >= 7000)) {
                     if (flagf6 == 0) {
                         myFunctionf6();
                     } 
@@ -287,6 +349,7 @@
 //                },1000);
                 document.getElementById("box1").className = "mid";
                 document.getElementById("box2").className = "mid";
+                
                 
             }
             //show for box 1-2

@@ -1,0 +1,138 @@
+#top-contact{
+    margin: 50px auto;
+    text-align: center;
+    position: relative;
+}
+#top-contact h3{
+    color: #676767;
+    font-size: 22px;
+    margin: 30px;
+    font-weight: 400;
+}
+#bor-black{
+    position: absolute;
+    border: 1px solid black;
+    width: 30px;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%);
+}
+#top-contact p a{
+    color: #9e6335;
+}
+#contact_form{
+    width: 50%;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 0 12px #ccc;
+    position: relative;
+}
+fieldset{
+    border: 0;
+}
+legend{
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+label{
+    display: block;
+    margin-bottom: 10px;
+}
+label.light{
+    display: inline-block;
+    margin-right: 10px;
+}
+input[type='text'],
+input[type='email'],
+input[type='url'],
+textarea,
+select {
+    border: 0;
+    font-size: 16px;
+    margin: 0;
+    outline: 0; /*bỏ border viền*/
+    padding: 15px;
+    width: 95%;
+    background: #e8eeef;
+    margin-bottom: 30px;
+}
+input[type='radio'],
+input[type='checkbox'] {
+    margin-bottom: 30px;
+}
+button[type='submit'],
+button[type='reset'] {
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+button[type='submit'] {
+    color: #fff;
+    background: #4bc970;
+    border: 1px solid #3ac162;
+}
+button[type='reset'] {
+    color: #3ac162;
+    background: #ebebeb;
+    border: 1px solid #ebebeb;
+}
+.number{
+    background: #5fcf80;
+    color: #fff;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    font-size: 15px;
+    margin-right: 5px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+}
+#number_contact{
+    background: aquamarine;
+    text-align: center;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 20px;
+    position: absolute;
+    top: -20px;
+    right: -60px;
+}
+#onl_contact{
+    position: fixed;
+    left: 0;
+    top: 50%;
+    margin-top: -30px;
+}
+#onl_contact ul{
+    list-style-type: none;
+}
+#onl_contact ul li{
+    padding: 10px;
+}
+#fb-contact{
+    background: darkslateblue;
+}
+#fb-contact a{
+    color: white;
+    text-decoration: none;
+}
+#ig-contact{
+    background: #ec5445;
+}
+#ig-contact a{
+    color: white;
+    text-decoration: none;
+}
+#tw-contact{
+    background: aqua;
+}
+#tw-contact a{
+    color: white;
+    text-decoration: none;
+}

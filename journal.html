@@ -7,9 +7,11 @@
         <link href="https://fonts.googleapis.com/css?family=Muli:600" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:700" rel="stylesheet">
         <link href="index.css" rel="stylesheet">
+        <link href="journal.css" rel="stylesheet">
+        
     </head>
     <body>
-        <nav id="header">
+       <nav id="header">
             <img src="img/bg-journal-wrapper.jpg">
             <img src="img/bg-qualitycycle-wrapper.jpg">
             <img src="img/bg-recipes-wrapper.jpg">
@@ -137,6 +139,113 @@
             </ul>
         </div>
         
+        <section id="item-container-content">
+            <div id="item-container-1" class="item-container">
+                <div class="item-box">
+                    <a href="#">
+                        <h6>29 June 2018</h6>
+                        <h4>OSPITI DELLA TRASMISSIONE<br> TEMPO &amp; DENARO!</h4>
+                    </a>
+                </div>
+                <div class="item-box">
+                    <a href="#">
+                        <h6>8 Aril 2018</h6>
+                        <h4>Eating in Modena: 7 foods<br> every visitor to Italy’s<br> culinary capital should try</h4>
+                    </a>
+                </div>
+                <div class="item-box">
+                    <a href="#">
+                        <h6>7 March 2018</h6>
+                        <h4>Il consumo regolare di<br> frutta secca e’ un fattore<br> chiave per mantenersi in<br> buona salute: lo rivelano<br> recenti studi clinici</h4>
+                    </a>
+                </div>    
+            </div>
+            
+            <div id="item-container-2" class="item-container">
+                <div class="item-box">
+                    <a href="#">
+                        <h6>27 December 2017</h6>
+                        <h4>Come fate a distinguere una<br> confettura di alta qualità?</h4>
+                    </a>
+                </div>
+                <div class="item-box">
+                    <a href="#">
+                        <h6>2 September 2017</h6>  
+                        <h4>Raccolta meccanica prugne<br> da essiccazione 2017</h4>
+                    </a>
+                </div>
+                <div class="item-box">
+                    <a href="#">
+                        <h6>4 August 2017</h6>
+                        <h4>Raccolta meccanica prugne<br> da essiccazione 2014 – <br>seconda parte.</h4>
+                    </a>
+                </div>
+            </div>
+            
+            <div id="item-container-3" class="item-container">
+                <div class="item-box">
+                    <a href="#">
+                        <h6>31 December 2016</h6>
+                        <h4>Amarene: il dolce e il<br> brusco</h4>
+                    </a>
+                </div>
+                <div class="item-box">
+                    <a href="#">
+                        <h6>17 July 2016</h6>
+                        <h4>Come riuscire a spiegare la<br> qualità dei nostri prodotti<br> in poche parole?</h4>
+                    </a>
+                </div>
+                <div class="item-box">
+                    <a href="#">
+                        <h6>19 April 2016</h6>
+                        <h4>Dalle prugne secche alle<br> amarene brusche modenesi<br> di Monte Ré</h4>
+                    </a>
+                </div>    
+            </div>
+            
+            <div id="item-container-4" class="item-container">
+                <div class="item-box">
+                    <a href="#">
+                        <h6>28 August 2015</h6>
+                        <h4>Lo sapete come una prugna<br> diventa secca?</h4>
+                    </a>
+                </div>
+                <div class="item-box">
+                    <a href="#">
+                        <h6>17 February 2015</h6>
+                        <h4>I 7 benefici delle prugne</h4>
+                    </a>
+                </div>
+                <div class="item-box">
+                    <a href="#">
+                        <h6>16 January 2015</h6>
+                        <h4>Prugne, proprietà e benefici</h4>
+                    </a>
+                </div>    
+            </div>
+            
+            <div id="item-container-5" class="item-container">
+                <div class="item-box">
+                    <a href="#">
+                        <h6>9 October 2014</h6>
+                        <h4>I benefici delle prugne<br> secche per il nostro<br> intestino</h4>
+                    </a>
+                </div>
+                <div class="item-box">
+                    <a href="#">
+                        <h6>7 June 2014</h6>
+                        <h4>Come utilizzare le<br> confettura di amarene<br> brusche Monte Ré</h4>
+                    </a>
+                </div>
+                <div class="item-box">
+                    <a href="#">
+                        <h6>10 March 2014</h6>
+                        <h4>Diabete di tipo 2: effetto<br> benefico dalle prugne<br> secche</h4>
+                    </a>
+                </div>    
+            </div>
+        </section>
+        
         <section id="body">
             <div id="box1">
                 <div class="layer-black"></div>
@@ -226,7 +335,7 @@
             window.onscroll = function() {
                 
                 //scroll for box 1-2
-                if ((document.body.scrollTop >= 155) || (document.documentElement.scrollTop >= 155)) { 
+                if ((document.body.scrollTop >= 1100) || (document.documentElement.scrollTop >= 1100)) { 
                     if (flag == 0) {
                         myFunctionf1();
                     }
@@ -236,7 +345,7 @@
                     }
                 }
                 //scroll for box 3-4
-                if ((document.body.scrollTop >= 555) || (document.documentElement.scrollTop >= 555)) { 
+                if ((document.body.scrollTop >= 1500) || (document.documentElement.scrollTop >= 1500)) { 
                     if (flagf2 == 0) {
                         myFunctionf2();
                     }
@@ -246,7 +355,7 @@
                     }
                 }
                 //scroll for big box 5
-                if ((document.body.scrollTop >= 955) || (document.documentElement.scrollTop >= 955)) {
+                if ((document.body.scrollTop >= 1900) || (document.documentElement.scrollTop >= 1900)) {
                     if (flagf3 == 0) {
                         myFunctionf3();
                     } 
@@ -256,7 +365,7 @@
                     }
                 }
                 //scroll for big box 6
-                if ((document.body.scrollTop >= 1555) || (document.documentElement.scrollTop >= 1555)) {
+                if ((document.body.scrollTop >= 2500) || (document.documentElement.scrollTop >= 2500)) {
                     if (flagf6 == 0) {
                         myFunctionf6();
                     } 
